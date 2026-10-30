@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    color: teal;
+}
+
+form {
+    background-color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 2px solid teal;
+    outline: none;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
