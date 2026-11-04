@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment</title>
+    <link rel="stylesheet" href="doctor.css">
+</head>
+<body>
+
+    <h1>City Care Hospital</h1>
+    <p>Book Your Doctor Appointment</p>
+
+    <h2>Our Doctors</h2>
+
+    <div class="doctor">
+        <h3>Dr. Ravi Kumar</h3>
+        <p>Specialization: Cardiologist</p>
+        <p>Timing: 10 AM - 1 PM</p>
+    </div>
+
+    <div class="doctor">
+        <h3>Dr. Priya Sharma</h3>
+        <p>Specialization: Dentist</p>
+        <p>Timing: 2 PM - 5 PM</p>
+    </div>
+
+    <div class="doctor">
+        <h3>Dr. Arun</h3>
+        <p>Specialization: General Physician</p>
+        <p>Timing: 9 AM - 12 PM</p>
+    </div>
+
+    <h2>Book an Appointment</h2>
+
+    <form>
+        <label>Patient Name:</label>
+        <input type="text" required>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <label>Phone Number:</label>
+        <input type="tel" required>
+
+        <label>Select Doctor:</label>
+        <select required>
+            <option value="">Choose Doctor</option>
+            <option>Dr. Ravi Kumar</option>
+            <option>Dr. Priya Sharma</option>
+            <option>Dr. Arun</option>
+        </select>
+
+        <label>Appointment Date:</label>
+        <input type="date" required>
+
+        <label>Appointment Time:</label>
+        <select required>
+            <option value="">Select Time</option>
+            <option>10:00 AM</option>
+            <option>11:00 AM</option>
+            <option>2:00 PM</option>
+            <option>4:00 PM</option>
+        </select>
+
+        <button type="submit">Book Appointment</button>
+    </form>
+
+    <footer>
+        <p>© 2026 City Care Hospital</p>
+    </footer>
+
+</body>
+</html>
